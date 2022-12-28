@@ -1,88 +1,51 @@
-ul {/*Top Menu*/
-  list-style-type: none;
+body {
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  overflow: hidden;
-  font-family: Helvetica;
-  font-style: normal;
-  background-color: #000;
-}
-li {
-  float: left;
-}
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-}
-li a:hover:not(.active) {
-  background-color: #111;
-}
-.active {
-  background-color: #000;
 }
 
-.image { /*We found your perfect Dyson!*/
-    background-image: url("https://3dinsider.com/wp-content/uploads/2019/11/Best-Dyson-Fans-to-Get-for-Black-Friday-to-Improve-Your-Home-Comfort.png");
-  max-width: 100%;
-  height: auto;
-  margin-top: -30px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;  
-  text-align: center;
-  font-family: Helvetica;
-  color: white;
-  font-size: 30px;
+header {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
 }
 
-.l2 { /*Product text*/
-  padding: 80px;
-  width: 700px;
-  height: 450px;
-  target-position: above;
-  margin: -120px auto;
-  text-align: center;
-  background-color: #FFFFFF;
-  color: black;
-  font-family: Helvetica;
-  font-size: 30px;
-}
-.l3 {/* Grey box no1 */
-  margin-top: -38%;
-  margin-left: 21%;
-  target-position: front;
-  height: 100px;
-  width: 200px;
-  padding: 25px;
-  background-color: #808080;
+header h1 {
+  margin: 0;
 }
 
-.l4 {/* Grey box no2 */
-  margin-top: 150%;
-  margin-left: -14%;
-  target-position: front;
-  height: 100px;
-  width: 200px;
-  padding: 25px;
-  background-color: #808080;
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
-.l5 {/* Grey box no3 */
-  margin-top: -13%;
-  margin-left: 120%;
-  target-position: front;
-  height: 100px;
-  width: 200px;
-  padding: 25px;
-  background-color: #808080;
+
+nav li {
+  margin: 0 10px;
 }
-.l6 { /* Grey box no4 */
-  margin-top: -13%;
-  margin-left: 120%;
-  target-position: front;
-  height: 100px;
-  width: 200px;
-  padding: 25px;
-  background-color: #808080;
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
 }
