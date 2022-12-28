@@ -47,12 +47,6 @@ img {
   width: 300px;
   height: 200px;
   border: 1px solid #333;
-  float: left;
-  margin-left: 20px;
-}
-
-p {
-  clear: both;
 }
 
 footer {
