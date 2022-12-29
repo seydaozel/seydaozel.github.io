@@ -47,6 +47,8 @@ img {
   width: 300px;
   height: 200px;
   border: 1px solid #333;
+  float: Left;
+  padding: 20px;
 }
 
 footer {
