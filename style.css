@@ -48,7 +48,7 @@ img {
   height: 200px;
   border: 1px solid #333;
   float: Left;
-  padding: 20px;
+  margin-left: 20px;
 }
 
 footer {
