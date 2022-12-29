@@ -5,7 +5,7 @@ body {
 }
 
 header {
-  background-color: #05C8FF;
+  background-color: #333;
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -52,7 +52,7 @@ img {
 }
 
 footer {
-  background-color: #05C8FF;
+  background-color: #333;
   color: #fff;
   text-align: center;
   padding: 20px;
